@@ -19,6 +19,7 @@ APCA_API_BASE_URL = "https://paper-api.alpaca.markets" # For paper trading
 
 # No keys required for crypto data
 client = CryptoHistoricalDataClient()
+#note that this object only works for crypto not stock lol as in the name
 
 # Creating request object
 request_params = CryptoBarsRequest(
