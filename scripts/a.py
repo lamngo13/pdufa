@@ -22,7 +22,7 @@ client = CryptoHistoricalDataClient()
 
 # Creating request object
 request_params = CryptoBarsRequest(
-  symbol_or_symbols=["AQST/USD"],
+  symbol_or_symbols=["BTC/USD"],
   #symbol_or_symbols=["BTC/USD"],
   timeframe=TimeFrame.Day,
   start=datetime(2025, 9, 1),
